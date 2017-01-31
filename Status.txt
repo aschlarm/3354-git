@@ -1,0 +1,8 @@
+Microsoft Windows [Version 10.0.14393]
+(c) 2016 Microsoft Corporation. All rights reserved.
+
+C:\Users\Amanda Laptop\OneDrive\Documents\GitHub\CS-3354-HON-Spring-2017\3354-git>git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+nothing to commit, working tree clean
