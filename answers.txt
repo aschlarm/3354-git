@@ -1,6 +1,6 @@
 (a) How many commits exist in the repository history after completing step 8 (Including
 commits made by the original author)?
-2 commits
+7 commits
 
 
 (b) When was the file .gitignore added?
