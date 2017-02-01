@@ -7,11 +7,15 @@ public class Main {
             int result = addArguments(args);
             System.out.println(result);
         } catch (Exception e) {
-            System.err.println("Please provide two integers to add");
+            System.err.println("Please only provide numbers");
         }
     }
 
-    private static int addArguments(String[] args) {
-        return Integer.valueOf(args[0]) + Integer.valueOf(args[1]);
+    private static int addArguments(int... intArrays) {
+        int Sum;
+        for(int i = 0; i< intArrays.length; i++) {
+            Sum += intArrays[i];
+        }
+        return Sum;
     }
 }
