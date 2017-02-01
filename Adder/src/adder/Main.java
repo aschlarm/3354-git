@@ -11,16 +11,16 @@ public class Main {
         }
     }
 
-    private static int addArguments(int... intArrays) {
+    private static int addArguments(String... intArrays) {
         int Sum;
         if (arg[0] = 1) {
             for (int i = 0; i < intArrays.length; i++) {
-                Sum -= intArrays[i];
+                Sum -= Integer.valueOf(intArrays[i]);
             }
         }
             else {
             for (int i = 0; i < intArrays.length; i++) {
-                Sum += intArrays[i];
+                Sum += Integer.valueOf(intArrays[i]);
             }
         }
         return Sum;
