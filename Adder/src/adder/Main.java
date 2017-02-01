@@ -13,8 +13,15 @@ public class Main {
 
     private static int addArguments(int... intArrays) {
         int Sum;
-        for(int i = 0; i< intArrays.length; i++) {
-            Sum += intArrays[i];
+        if (arg[0] = 1) {
+            for (int i = 0; i < intArrays.length; i++) {
+                Sum -= intArrays[i];
+            }
+        }
+            else {
+            for (int i = 0; i < intArrays.length; i++) {
+                Sum += intArrays[i];
+            }
         }
         return Sum;
     }
