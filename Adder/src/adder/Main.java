@@ -11,10 +11,10 @@ public class Main {
         }
     }
 
-    private static int addArguments(int... intArrays) {
+    private static int addArguments(String... intArrays) {
         int Sum;
         for(int i = 0; i< intArrays.length; i++) {
-            Sum += intArrays[i];
+            Sum += Integer.valueOf(intArrays[i]);
         }
         return Sum;
     }
